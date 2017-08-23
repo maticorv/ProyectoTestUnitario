@@ -85,6 +85,16 @@ public class CalculadoraTest {
         assertEquals(expResult, result);
         
     }
+    @Test
+    public void testDividirPorCero() {
+        System.out.println("dividir Por Cero");
+        int a = 7;
+        int b = 0;
+        int expResult = 0;
+        int result = Calculadora.dividir(a, b);
+        assertEquals(expResult, result);
+        
+    }
 
     
     @Test
