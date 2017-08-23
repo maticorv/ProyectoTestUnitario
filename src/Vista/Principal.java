@@ -94,9 +94,7 @@ public class Principal extends javax.swing.JFrame {
 
         JLabelfondo.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Vista/mafalda.jpg"))); // NOI18N
         getContentPane().add(JLabelfondo, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 0, 360, 330));
-
-        jLabel5.setText("jLabel5");
-        getContentPane().add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(710, 50, -1, -1));
+        getContentPane().add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(710, 50, 30, -1));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
